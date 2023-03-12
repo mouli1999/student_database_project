@@ -1,0 +1,87 @@
+form.data { 
+    
+    margin: 5px; 
+    padding: 5px; 
+    /* border: solid #000 1px; */
+    align-items: baseline; 
+    display: flex;
+    flex-direction:row ;
+} 
+label { 
+    width: 6em;
+    float: left;
+    text-align: right; 
+    margin: .5em 1em; 
+    clear: both; 
+    /* border: dashed #666 1px;  */
+   
+}
+input, textarea { 
+    margin: .5em 0; 
+    width: 17em;
+}
+table{
+    border-collapse: separate;
+  border-spacing:0 0;
+  width: -webkit-fill-available ;
+}
+table th,
+td{
+    border:1px solid black;
+    margin: 0;
+    padding: 0;
+  }
+.item{
+    align-items: baseline;
+}
+.delete button{
+    display: initial;
+    height: 30px;
+    width: 80px ;
+}
+.no_border{
+    border: none;
+    
+}
+.delete {
+    display: inline;
+}
+.form-popup {
+    display: none;
+    align-content: center;
+    /* position: fixed; */
+    bottom: 0;
+    right: 15px;
+    border: 3px solid #f1f1f1;
+    z-index: 9;
+    
+    height: 200px;
+    width: 400px;
+  }
+  .form-container {
+    max-width: 300px;
+    padding: 10px;
+    background-color: white;
+  }
+  .form-container input[type=text], .form-container input[type=password] {
+    width: 100%;
+    padding: 15px;
+    margin: 5px 0 22px 0;
+    border: none;
+    background: #f1f1f1;
+  }
+  .form-container input[type=text]:focus, .form-container input[type=password]:focus {
+    background-color: #ddd;
+    outline: none;
+  }
+  .form-container .btn {
+    background-color: #04AA6D;
+    color: white;
+    padding: 16px 20px;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+    margin-bottom:10px;
+    opacity: 0.8;
+    
+  }
